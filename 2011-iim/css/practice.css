@@ -209,7 +209,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 }
 
 html {
-    overflow: hidden;
     height: 100%;
 }
 
@@ -340,6 +339,11 @@ div#main > img {
     -moz-transition-timing-function: ease;
 }
 
+article img.logo {
+    float: right;
+    margin: 0em 0em 0em 1em;
+    width: 180px;
+}
 
 /* =============================================================================
    Non-semantic helper classes
