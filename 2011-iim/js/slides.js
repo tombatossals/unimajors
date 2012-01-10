@@ -30,7 +30,7 @@ function checkVersion() {
 
 checkVersion();
 
-var PERMANENT_URL_PREFIX = 'http://git.micronautas.com/';
+var PERMANENT_URL_PREFIX = 'http://www3.uji.es/~vrubert/unimajors/2011-iim/';
 
 var SLIDE_CLASSES = ['far-past', 'past', 'current', 'next', 'far-next'];
 
