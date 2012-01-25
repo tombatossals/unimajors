@@ -209,7 +209,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 }
 
 html {
-    overflow: hidden;
     height: 100%;
 }
 
@@ -220,10 +219,7 @@ body {
     min-width: 960px;
     width: 960px;
     margin: auto;
-    background: white;
-    background: -webkit-linear-gradient( top, white, lightblue);
-    background: -moz-linear-gradient( top, white, white, lightblue);
-    -webkit-background-size: 10% 100%;
+    background: lightblue;
 }
 
 div#wrapper {
