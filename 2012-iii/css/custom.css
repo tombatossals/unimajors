@@ -6,14 +6,45 @@ body.full {
     background: #FFF;
 }
 
+#Cover section {
+    position: relative;
+}
+
+#Cover h1 {
+    position: absolute;
+    width: 80%;
+    left: 100px;
+    bottom: 25%;
+    color: #444;
+    font-size: 2em;
+    font-weight: bold;
+    border-top: 4px solid #888;
+}
+
 #Cover h2 {
-    color: #222;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    color: #333;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#Cover p {
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    width: 550px;
+    text-align: justify;
+    font-size: .9em;
+    font-weight: bold;
+    color: #120b81;
 }
 
 div.cover img.logo {
     position: absolute;
-    top: 10%;
-    left: 20%;
+    top: 80px;
+    left: 200px;
     height: auto;
-    width: 300px;
+    width: 200px;
 }
