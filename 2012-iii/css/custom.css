@@ -48,3 +48,26 @@ div.cover img.logo {
     height: auto;
     width: 200px;
 }
+
+h2.title {
+    position: absolute;
+    top: 50px;
+    padding: .1em 1em;
+    color: white;
+    background: #222;
+    opacity: .6;
+    border-radius: 15px;
+}
+
+.slide section:before {
+    background: none;
+}
+
+img.logo {
+    width: 240px;
+    float: right;
+    box-shadow: 10px 10px 5px #444;
+    padding: 2px;
+    border: 1px solid #888;
+}
+
