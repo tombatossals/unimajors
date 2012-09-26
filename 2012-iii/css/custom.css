@@ -25,6 +25,7 @@ body.full {
     position: absolute;
     top: 50px;
     left: 350px;
+    width: 500px;
     color: #333;
     font-size: 1.8em;
     font-weight: bold;
@@ -33,7 +34,7 @@ body.full {
 #Cover p {
     position: absolute;
     top: 150px;
-    left: 350px;
+    left: 370px;
     width: 550px;
     text-align: justify;
     font-size: .9em;
@@ -90,4 +91,25 @@ img.panoramic {
 
 p.justify {
     text-align: justify;
+}
+
+a.home {
+    padding: .2em;
+    margin: .2em;
+    height: 48px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+a.home > img {
+    width: 48px;
+}
+
+a.home:hover {
+    box-shadow: 0 0 5px 5px #888;
+    border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
