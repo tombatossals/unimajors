@@ -1,0 +1,23 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+span.date {
+    font-size: .6em;
+    color: green;
+}
+
+div.session {
+    border-top: 4px solid #DDD;
+    padding-top: 1em;
+    margin-left: 0px;
+}
+
+div.session:hover {
+    border-top: 4px solid #888;
+    background: #EFEFEF;
+}
+
