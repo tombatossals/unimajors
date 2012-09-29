@@ -21,3 +21,25 @@ div.session:hover {
     background: #EFEFEF;
 }
 
+.title {
+    margin-top: 2em;
+    clear: both;
+    border-bottom: 2px solid #888;
+}
+
+img.logo {
+    width: 320px;
+    float: right;
+    box-shadow: 10px 10px 5px #444;
+    padding: 2px;
+    margin: 0 0 1em 1em;
+    border: 1px solid #888;
+}
+
+hr {
+    clear: both;
+}
+
+.big-font {
+    font-size: 1.2em;
+}
