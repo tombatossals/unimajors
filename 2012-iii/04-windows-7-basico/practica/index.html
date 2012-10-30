@@ -1,100 +1,106 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="Universitat per a Majors, UJI, Castellon. Iniciación a la informática e Internet.">
+        <meta name="viewport" content="width=device-width">
 
-	<title>Práctica. Informática e Internet básico.</title>
-    <meta name="description" content="Curso de la Universistat Jaume I de
-    Castellón. Universidad para mayores. Internet e informática.">
-	<meta name="author" content="David Rubert">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="keywords" content="tutorial, practica, ejemplos, aprendizaje,
-    internet, universidad, mayores, majors" />
-	<link rel="stylesheet" href="../../css/practice.css">
-    <link rel="stylesheet" href="../../css/video-js.css">
-    <script src="../../js/video.js"></script>
-</head>
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <link rel="stylesheet" href="../../css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="../../css/bootstrap-spacelab.min.css">
+        <link rel="stylesheet" href="../../css/video-js.css">
+        <link rel="stylesheet" href="../../css/main.css">
 
-<body>
-	<div id="header-container">
-        <header>
-            <a class="home" href="../.."><img src="../../images/home-icon.png" /></a>
-            <h1 id="title"><span class="git">Práctica</span> Sesión 4</h1>
-		</header>
-	</div>
-    <div id="main" class="wrapper">
-        <article>
-            <h2>1. Introducción</h2>
-            <img class="logo" src="images/w7.png" />
-            <p>Vamos a iniciar las prácticas de <strong>Windows 7</strong> haciendo un repaso de los principales elementos de un escritorio. Aprenderemos a movernos por él, abrir programas y saber diferencias los diferentes componentes que lo componen.</p>
-            <br style="clear: both;" />
-            <h2>2. El menú inicio</h2>
-            <p>Empecemos a trabajar con uno de los elementos más característicos de un escritorio Windows, el <strong>Menú inicio</strong>.</p>
-            <div style="float: right;">
-                <video loop="loop" id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" width="400" height="300" data-setup="{}">
-                    <source src="http://www3.uji.es/~vrubert/unimajors/2012-iii/videos/abrir-paint.mp4" type="video/mp4" />
-                    <source src="../../videos/abrir-paint.ogg" type="video/ogg" />
-                </video>
+        <script src="../../js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+        <script src="../../js/video.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="../..">Iniciación a la informática e Internet (2012 - 2013)</a>
+                </div>
             </div>
+        </div>
+
+        <div class="container big-font">
+
+            <h1>Práctica Sesión 4</h1>
+            <h2 class="title">Firmar asistencia</h2>
+            <img style="height: 150px; width: 100px;" class="logo" src="../../images/pen.png"/>
+            <p>Introduciremos hoy en la práctica una de las cosas que deberemos
+            realizar en todas las sesiones del curso, que es la firma de
+            asistencia a través de una página web. Con lo que llevamos visto
+            estos días podemos introducir ya el concepto e ir practicándolo
+            hasta que lo consigamos. Consiste en lo siguiente:</p>
             <ul>
-                <li>Pulsa con el ratón en el icono de <strong>Inicio de Windows.</strong>
-                <li>Busca y abre la aplicación <strong>Paint</strong>.</li>
-                <li>Finalmente, ciérrala.</li>
+                <li>Abrir un navegador</li>
+                <li>Acceder a la página de <strong>mayores.uji.es</strong></li>
+                <li>Ir a la sección de <strong>Docencia</strong></li>
+                <li>En la columna izquierda, abajo del todo, buscar el enlace a
+                <strong>Firmas</strong>.</li>
+                <li>Introducir el usuario y contraseña UJI</li>
+                <li>Pulsar el botón de <strong>firmar asistencia</strong></li>
             </ul>
-            <br />
-            <br />
-            <br style="clear: both;" />
-            <h2>2. Navegando por el menú inicio</h2>
-            <p>Veamos ahora cómo abrir <strong>Paint</strong> buscándola por los menús</p>
-            <div style="float: right;">
-                <video loop="loop" id="my_video_10" class="video-js vjs-default-skin" controls preload="auto" width="400" height="300" data-setup="{}">
-                    <source src="http://www3.uji.es/~vrubert/unimajors/2012-iii/videos/abrir-paint-detalle.mp4" type="video/mp4" />
-                    <source src="../../videos/abrir-paint-detalle.ogg" type="video/ogg" />
-                </video>
-            </div>
+            <h2 class="title">Practiquemos un poco con el ratón</h2>
+            <p>El ratón es un componente esencial de la informática de usuario
+            hoy en día, así que debemos dominar su uso básico, que como veréis,
+            no es excesivamente complicado sino que simplemente requiere algo
+            de práctica.</p>
+
+
+            <p>Practicaremos un poco el uso del ratón mediante juegos, veamos
+            algunos de ellos.</p>
+
+            <h2 class="title">Dominar la precision con el puntero del ratón: Dibujo</h2>
+            <p>Para empezar, vamos a acceder a una de estas páginas web donde quiero que
+            intentéis hacer un dibujo, por ejemplo una pera, un sol, o un pez
+            con el ratón.</p>
+            <img class="logo" src="prac01.png" />
             <ul>
-                <li>Pulsa con el ratón en el icono de <strong>Inicio de Windows.</strong>
-                <li>Pulsa sobre el icono de <strong>Todos los programas</strong>.</li>
-                <li>Pulsa de nuevo sobre la carpeta <strong>Accesorios</strong></li>
-                <li>Pulsa ahora sobre el programa <strong>Paint</strong>.</li>
+                <li><a
+                    href="http://mrdoob.com/projects/harmony/#sketchy">http://mrdoob.com/projects/harmony/#sketchy</a></li>
+                <li><a
+                    href="http://hakim.se/experiments/html5/sketch/">http://hakim.se/experiments/html5/sketch/</a></li>
             </ul>
-            <br />
-            <br />
-            <br style="clear: both;" />
-            <h2>3. Utilizar una aplicación</h2>
-            <p>Volvamos a abrir la aplicación <strong>Paint</strong>, esta vez vamos a utilizarla y practicamos un poco el uso del ratón. Observa el video e intentar realizar la misma operación.</p>
-            <div style="float: right;">
-                <video loop="loop" id="my_video_2" class="video-js vjs-default-skin" controls preload="auto" width="400" height="300" data-setup="{}">
-                    <source src="http://www3.uji.es/~vrubert/unimajors/2012-iii/videos/paint-pez.mp4" type="video/mp4" />
-                    <source src="../../videos/paint-pez.ogg" type="video/ogg" />
-                </video>
-            </div>
+            <h2 class="title">El concepto de drag&drop:
+                pinchar/arrastrar/soltar</h2>
+            <p>Practiquemos ahora uno de los conceptos más usados en la
+            informática hoy en día, el drag&drop. Lo veremos en detalle en
+            clase, pero quiero que empecemos a dominarlo con el sencillo
+            ejercicio que encontraréis en esta página web.</p>
+            <img class="logo" src="flow.png" />
             <ul>
-                <li>Pulsa con el ratón en el icono de <strong>Inicio de Windows.</strong>
-                <li>Busca y abre la aplicación <strong>Paint</strong>.</li>
-                <li>Finalmente, ciérrala.</li>
+                <li><a href="http://www3.uji.es/~vrubert/flow/">http://www3.uji.es/~vrubert/flow/</a></li>
             </ul>
-            <br style="clear: both;" />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-		</article>
-    </div>
-    
-<!--[if lt IE 7 ]>
-	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
-	<script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
-<![endif]-->
-</body>
+            <hr />
+            <footer>
+                <p>2012-2013 <a href="https://plus.google.com/100184619238119414805">+ David Rubert</a></p>
+            </footer>
+
+        </div> <!-- /container -->
+
+    </body>
 </html>
