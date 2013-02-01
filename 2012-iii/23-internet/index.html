@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>Taller Windows 7</title>
+    <meta name="description" content="Universitat per a Majors, UJI, Castellon. Iniciación a la informática e Internet.">
+    <meta charset='utf-8'>
+    <script src='../js/slides.js'></script>
+    <link rel="stylesheet" href="../css/video-js.css">
+    <script src="../js/video.js"></script>
+  </head>
+  
+  <body>
+
+    <section class='slides layout-regular template-default'>
+      
+      <a class="home" href=".."><img src="../images/home-icon2.png" /></a>
+
+      <article class='biglogo'>
+        <h1 class="title">Taller Windows 7</h1>
+        <h2 class="title" style="font-size: 2.3em;">Internet</span></h2>
+        <h3 class="subtitle">Configurar internet en un equipo Windows 7</h3>
+        <div class="subinfo">
+          Apreta la tecla <span class="key">&rarr;</span> para avanzar.
+        </div>
+        <div class='source'>
+            <a href="http://creativecommons.org/licenses/by-sa/3.0/"><img
+                style="display: inline; margin-right: 1em;" src="../images/cc.png" /></a>
+            <a href="https://plus.google.com/100184619238119414805/posts">+David Rubert</a>
+        </div>
+        <a href="http://www.uji.es"><img style="box-shadow: .1em .1em 0.3em 
+            #222; position: absolute; bottom: 1em; right: 1em; opacity: .7;" src="../images/uji.png" /></a>
+      </article>
+
+      <article>
+        <h1 class="title">Internet</h1>
+        <hr class="title" />
+        <img class="logo shadow" src="../images/wikipedia.png" />
+        <p class="justify">Internet es un conjunto descentralizado de redes de comunicación interconectadas que utilizan la familia de protocolos TCP/IP, garantizando que las redes físicas heterogéneas que la componen funcionen como una red lógica única, de alcance mundial.</p>
+        <br style="clear: both;" />
+        <p style="text-align: center;"><img style="width: 600px;" src="images/internet.jpg" /></p>
+      </article>
+
+      <article>
+        <h1 class="title">Conectando físicamente a internet</h1>
+        <hr class="title" />
+        <img class="logo shadow" src="images/conectar.jpg" />
+        <p class="justify">Existen diferentes tecnologías de acceso a la red de redes, de las cuales vamos a nombrar las más utilizadas para conectar nuestra recinto (o nuestra casa) a internet.</p>
+        <ul>
+            <li><strong>ADSL.</strong> A través del par de cobre de telefonía nos conectan a la central de la operadora. Tecnología obsoleta y muy limitada, pero ampliamente utilizada debido al gran despliegue de infraestructura de telefonía que reaprovecha.</li>
+            <li><strong>Fibra óptica.</strong> Tecnología mucho más moderna, prácticamente sin límites de trasferencia. Más cara y difícil de desplegar.</li>
+        </ul>
+      </article>
+
+      <article class='fill'>
+        <h3></h3>
+        <img alt="Caja de PTR de conexión a casa" src="images/ptr.jpg" />
+        <img alt="Router Movistar que nos ponen con Wifi" src="images/adsl.jpg" />
+        <img alt="Fibra hasta el hogar" src="images/ftth.jpg" />
+        <div class='source white'>
+            <p>Cambia de foto con las teclas: <span class="key">&uarr;</span> y <span class="key">&darr;</span>
+        </div>
+      </article>
+
+      <article>
+        <h1 class="title">Conectar el ordenador a la red</h1>
+        <hr class="title" />
+        <img class="logo shadow" src="images/wifi.jpg" />
+        <p class="justify">Para conectar el ordenador a la red, tenemos dos tecnologías principales que seguro que conocéis:</p>
+        <ul>
+            <li><strong>Cable ethernet.</strong> Un cable físico nos conecta a un router, a través de conectores Ethernet.</li>
+            <li><strong>Wireless.</strong> Utilizando antenas y tecnología inalámbrica en la banda de los 2,4Ghz, conectamos al router.</li>
+        </ul>
+      </article>
+
+      <article class='fill'>
+        <h3></h3>
+        <img alt="Cable ethernet, un extremo al router y el otro al PC" src="images/ethernet.jpg" />
+        <img alt="Conectando el PC con el cable ethernet" src="images/computer-ethernet.jpg" />
+        <img alt="Con un router Wifi no hacen falta cables" src="images/router_wifi.jpg" />
+        <div class='source white'>
+            <p>Cambia de foto con las teclas: <span class="key">&uarr;</span> y <span class="key">&darr;</span>
+        </div>
+      </article>
+
+      <article>
+        <h1 class="title">Gestionar la red en Windows 7</h1>
+        <hr class="title" />
+        <img class="logo shadow" src="images/network.png" />
+        <p class="justify">Aunque la labor de instalación de la red os recomiendo que la realice un profesional, sí que hay cierta configuración de red que podemos gestionar nosotros con <strong>Windows 7</strong>.</p>
+        <hr />
+        <p>Os voy a enseñar algunos trucos de diagnóstico y gestión de red, que os pueden servir para saber cómo conectar o qué está pasando con vuestra conexión.</p>
+        </ul>
+      </article>
+
+      <article>
+        <h1 class="title">Estado de la red en Windows 7</h1>
+        <hr class="title" />
+        <img class="logo shadow" src="images/systray.png" />
+        <p class="justify">Podemos determinar el estado de la red mediante la información que se nos muestra en el área de notificaciones.</p>
+        <hr />
+        <ul>
+            <li><strong>Red inalámbrica</strong>. Un icono nos indicará el estado de la red, y pulsando sobre él, podremos establecer conexión a cualquier otra red accesible a la que tengamos acceso.</li>
+            <li><strong>Red cableada</strong>. Nuevamente un icono nos indicará el estado de la red. Un fallo en la red cableada suele indicar un problema más serio (el cable está desconectado, o el router no funciona).</li>
+        </ul>
+       
+      </article>
+
+      <article>
+        <h1 class="title">Iconos del estado de la red</h1>
+        <hr class="title" />
+        <img class="logo shadow" src="images/systray.png" />
+        <p class="justify">Los iconos que vemos en la barra de estado nos indican el estado actual de la conexión de nuestro equipo. Veámoslos:</p>
+        <hr />
+        <ul>
+            <li><img style="vertical-align: middle; height: 100px;" src="images/wifi00.png" /> <strong>Hay redes inalámbricas disponibles.</strong></li>
+            <li><img style="vertical-align: middle; height: 100px;" src="images/wifiicon00.png" /> <strong>Estamos conectados a la red inalámbrica, pero Internet no está disponible.</strong></li>
+                <li><img style="vertical-align: middle; height: 100px;" src="images/wifiicon01.png" /> <strong>Conectados con poca calidad de señal.</strong></li>
+        </ul>
+      </article>
+
+      <article class='fill'>
+        <h3></h3>
+        <img alt="Panel de conexión a redes Wifi" src="images/wifi01.png" />
+        <img alt="Seleccionamos una red y conectamos" src="images/wifi02.png" />
+        <img alt="Si una red no requiere contraseña veremos un icono de alerta" src="images/wifi03.png" />
+        <img alt="Deberemos introducir una contraseña para conectar a la red Wifi" src="images/wifi04.png" />
+        <img alt="Si nos equivocamos no podremos conectar a esa red" src="images/wifi05.png" />
+        <img alt="Cuando conectamos a una nueva red Wifi deberemos decir si es red doméstica o pública" src="images/tipodered.png" />
+        <img alt="Dependiendo de ello, las políticas de seguridad serán diferentes" src="images/tipored02.png" />
+        <div class='source white'>
+            <p>Cambia de foto con las teclas: <span class="key">&uarr;</span> y <span class="key">&darr;</span>
+        </div>
+      </article>
+
+      <article>
+        <h1 class="title">La red cableada</h1>
+        <hr class="title" />
+        <img class="logo shadow" src="images/ethernet.jpg" />
+        <p class="justify">Si utilizamos una conexión a internet mediante cable, el icono informativo de la barra de tareas es diferente. A través de cable es mucho más simple conocer el estado de la conexión.</p>
+        <hr />
+        <img style="width: 300px;" src="images/systray-cable.png" />
+      </article>
+
+      <article class='fill'>
+        <h3></h3>
+        <img alt="Información de la conexión por cable" src="images/cable01.png" />
+        <img alt="Centro de redes" src="images/cable02.png" />
+        <img alt="Configuración del adaptador" src="images/cable03.png" />
+        <img alt="Si desactivamos el adaptador de red" src="images/cable04.png" />
+        <img alt="Se desconecta la conexión" src="images/cable05.png" />
+        <img alt="Lo podemos volver a activar fácilmente" src="images/cable06.png" />
+        <div class='source white'>
+            <p>Cambia de foto con las teclas: <span class="key">&uarr;</span> y <span class="key">&darr;</span>
+        </div>
+      </article>
+
+      <article>
+        <h1 class="title">Problemas típicos de red</h1>
+        <hr class="title" />
+        <img class="logo shadow" src="images/network.jpg" />
+        <p class="justify">Veamos ahora algunos trucos que nos permitirán diagnosticar problemas de red en la conexión de un equipo.</p>
+        <ul>
+            <li><strong>Internet no funciona, ¿puedo hacer algo?</strong></li>
+            <li>Posiblemente el problema no esté relacionado con el equipo, sino con el router de casa, o con la conexión de nuestro ISP.</li>
+            <li><strong>Resetear el router del ISP.</strong></li>
+            <li>Veamos como podemos diagnosticar problemas con el propio equipo.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h1 class="title">Problemas típicos de red</h1>
+        <hr class="title" />
+        <p class="justify">Si una página no nos funciona en el navegador, puede deberse a tres causas. Recordemos que una página está formada por un dominio y un recurso (<strong>http://mayores.uji.es/blogs</strong>)</p>
+        <ul>
+            <li><strong>No funciona la conexión</strong>. En ese caso no funcionará ninguna página.</li>
+            <li><strong>Hemos escrito mal el dominio</strong>. Si escribimos mal el dominio que queremos visitar dará la sensación que no funciona internet, cuando es un error tipográfico.</li>
+            <li><strong>Hemos escrito mal el recurso.</strong> En ese caso veremos claramente un error que nos indica que hemos escrito algo mal, o que el contenido ya no está disponible.</li>
+        </ul>
+      </article>
+
+      <article class='fill'>
+        <h3></h3>
+        <img alt="Escribimos mal el dominio: wwww.google.es" src="images/error01.png" />
+        <img alt="Escribimos mal el dominio: elpais.eu" src="images/error02.png" />
+        <img alt="Escribimos mal el recurso" src="images/error03.png" />
+        <div class='source white'>
+            <p>Cambia de foto con las teclas: <span class="key">&uarr;</span> y <span class="key">&darr;</span>
+        </div>
+      </article>
+
+    </section>
+  </body>
+</html>
