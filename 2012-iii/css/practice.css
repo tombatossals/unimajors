@@ -411,3 +411,15 @@ article img.logo {
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3{ page-break-after: avoid; }
 }
+
+div.gallery {
+    clear: both;
+}
+
+div.gallery img {
+    float: left;
+    height: 120px;
+    padding: 2px;
+    border: 2px solid #888;
+    margin: .3em;
+}
