@@ -1,0 +1,45 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+span.date {
+    font-size: .6em;
+    color: green;
+}
+
+div.session {
+    border-top: 4px solid #DDD;
+    padding-top: 1em;
+    margin-left: 0px;
+}
+
+div.session:hover {
+    border-top: 4px solid #888;
+    background: #EFEFEF;
+}
+
+.title {
+    margin-top: 2em;
+    clear: both;
+    border-bottom: 2px solid #888;
+}
+
+img.logo {
+    width: 320px;
+    float: right;
+    box-shadow: 10px 10px 5px #444;
+    padding: 2px;
+    margin: 0 0 1em 1em;
+    border: 1px solid #888;
+}
+
+hr {
+    clear: both;
+}
+
+.big-font {
+    font-size: 1.2em;
+}
